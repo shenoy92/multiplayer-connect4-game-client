@@ -1,0 +1,41 @@
+.grid {
+  border: 1px solid;
+  height: 240px;
+  width: 280px;
+  background-color:#fffdd0;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.lastRow{
+  border:0;
+  border-top:1px solid;
+}
+
+.grid div {
+  border:1px solid;
+  height: 38px;
+  width: 38px;
+}
+
+.player-one {
+  background-color: red;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.player-two {
+  background-color: blue;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+#player {
+  padding: 5px 10px;
+}
+
+.taken.lastRow{
+  border:0;
+  border-top:1px solid;
+}
